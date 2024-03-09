@@ -1,0 +1,147 @@
+.navbar {
+    background-color: #ffffff;
+    height: 5rem;
+    width: 100vw;
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    box-shadow: 0 4px 8px rgba(146, 146, 148, 0.2);
+}
+
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.desktopMenubtn {
+    background: rgb(29, 28, 28);
+    color: #000000;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0 1rem;
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.desktopMenuListItem:hover {
+    color: #6f6f6f;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(128, 0, 0);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.active {
+    color: rgb(216, 216, 216);
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+
+@media screen and (max-width: 350px) {
+    .navbar {
+        padding: 1rem;
+
+    }
+
+    .desktopMenuListItem {
+        margin: 0.5rem;
+
+        font-size: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 808px) {
+    .desktopMenu {
+        display: none;
+
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 5rem;
+        justify-content: center;
+
+        left: 0;
+        width: 23rem;
+        height: 30rem;
+        color: #000000;
+        background-color: #ffffff;
+        padding: 2rem 3rem;
+
+
+        font-size: 2rem;
+        z-index: 2;
+    }
+
+    .mobileMenu a {
+        margin: 1rem 0;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+
+    .hamburger {
+        position: static;
+        top: 1rem;
+        right:1rem;
+        margin-right: 20px;
+        
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    .hamburger-icon {
+        font-size: 2.5rem;
+        color: rgb(0, 0, 0);
+        margin-left: 130px;
+        max-width: auto;
+      
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hamburger {
+        display: none;
+        /* Hide the hamburger button */
+    }
+
+    .desktopMenu {
+        display: flex !important;
+        /* Ensure the desktop menu is visible */
+    }
+
+    .mobileMenu {
+        display: none;
+        /* Hide the mobile menu */
+    }
+}

@@ -1,0 +1,108 @@
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+   
+    
+    justify-content: center;
+}
+
+.product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.8s ease; 
+    
+}
+.product:hover {
+    background-color: #c1c1c1; /* Change the background color on hover */
+}
+
+.product-image {
+    height: 200px;
+}
+
+.product-image img {
+    border-radius: 8px;
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    border: #d86363;
+}
+
+.product-details {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.product-price {
+    font-size: 1.1em;
+    margin-top: 5px;
+    font-weight: 600;
+    font-weight: bold;
+}
+.product-discountPercentage{
+    color: red;
+    font-size: 1.1em;
+    margin-top: 5px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(79, 79, 155);
+    transition: background-color 0.4s,
+        color 0.3s;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    background-color: indigo;
+    color: white;
+}
+.filter{
+    width: 140px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    
+    
+}
+@media screen and (max-width:600px){
+    .filter{
+        font-size: 15px;
+        flex-wrap: wrap;
+        font-weight: bold;
+    }
+}
+.filter:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,111 @@
+import imagesix from '../../assets/bags.jpg';
+import imageseven from '../../assets/img2.jpg';
+import imagefive from '../../assets/img3.jpg';
+import { default as imagefour, default as imageone } from '../../assets/img4.jpg';
+import imagetwo from '../../assets/img5.jpg';
+import imagethree from '../../assets/img6.jpg';
+
+
+const Data = [
+  {
+    id: 59,
+    title: "Allen Solly Textured Shoulder Bag",
+    price: 2899,
+    quantity: 3,
+    total: 60,
+    discountPercentage: 8.71,
+    discountedPrice: 55,
+    thumbnail:imageone,
+  },
+  {
+    id: 88,
+    title: "Lino Perrosn Off-White Quilted Handheld Bag",
+    price: 2900,
+    quantity: 2,
+    total: 58,
+    discountPercentage: 3.19,
+    discountedPrice: 56,
+    thumbnail: imagetwo,
+  },
+  {
+    id: 18,
+    title: "H&M Small Shoulder Bag",
+    price: 4000,
+    quantity: 2,
+    total: 80,
+    discountPercentage: 13.1,
+    discountedPrice: 70,
+    thumbnail: imagethree,
+  },
+  {
+    id: 95,
+    title: "H&M Coated Shopper bag",
+    price: 2000,
+    quantity: 1,
+    total: 930,
+    discountPercentage: 17.67,
+    discountedPrice: 766,
+    thumbnail: imagefour,
+  },
+  {
+    id: 39,
+    title: "Lino Perro Structured  with Quilted Detail",
+    price: 6009,
+    quantity: 2,
+    total: 1200,
+    discountPercentage: 17.2,
+    discountedPrice: 994,
+    thumbnail: imagefive,
+  },
+  {
+    id: 96,
+    title: " Mast & Harbour White Solid Satchel",
+    price: 1500,
+    quantity: 2,
+    total: 60,
+    discountPercentage: 14.89,
+    discountedPrice: 51,
+    thumbnail: imagesix,
+  },
+  {
+    id: 91,
+    title: "Mast & Harbour White Solid Satchel",
+    price: 2999,
+    quantity: 3,
+    total: 1707,
+    discountPercentage: 13.63,
+    discountedPrice: 1474,
+    thumbnail: imageseven,
+  },
+  {
+    id: 9,
+    title: "Mast & Harbour White Solid Satchel",
+    price: 3499,
+    quantity: 1,
+    total: 1099,
+    discountPercentage: 11.83,
+    discountedPrice: 969,
+    thumbnail: imagethree,
+  },
+  {
+    id: 16,
+    title: "Mast & Harbour White Solid Satchel",
+    price: 4590,
+    quantity: 1,
+    total: 19,
+    discountPercentage: 13.31,
+    discountedPrice: 16,
+    thumbnail: imageone,
+  },
+  {
+    id: 54,
+    title: "Mast & Harbour White Solid Satchel",
+    price: 4600,
+    quantity: 3,
+    total: 138,
+    discountPercentage: 16.44,
+    discountedPrice: 115,
+    thumbnail: imagefour,
+  },
+];
+export default Data;
