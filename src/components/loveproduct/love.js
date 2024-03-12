@@ -16,7 +16,7 @@ const Love = () => {
 
   return (
     <section className="grid gap-2 pt-8 grid-cols-1fr md:grid-cols-4">
-      <h1 className="ml-6 font-extrabold text-center text-black rounded-lg shadow-md w-autotext-lg lg:text-4xl shadow-black md:col-span-full">
+      <h1 className="p-4 ml-6 font-extrabold text-center text-black rounded-lg w-autotext-lg lg:text-4xl md:col-span-full">
         Our Trending Product
       </h1>
 
@@ -51,7 +51,7 @@ const Love = () => {
         <button className="w-[100px] bg-black lg:ml-14" onClick={handleFilter}>
           Filter
         </button>
-       
+   
       </div>
 
       <div className="col-span-3 rounded-lg shadow-md md:col-span-3 shadow-black">
@@ -59,7 +59,7 @@ const Love = () => {
           {productItem.map((product) => (
             <div className="product" key={product.id}>
               <div className="product-image">
-                <img src={product.thumbnail} alt={product.title} />
+                <img src={product.thumbnail} alt={product.title}  />
               </div>
               <div className="product-details">
                 <p className="product-title">{product.title}</p>

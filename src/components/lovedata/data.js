@@ -1,10 +1,12 @@
-import imagesix from '../../assets/bags.jpg';
-import imageseven from '../../assets/img2.jpg';
-import imagefive from '../../assets/img3.jpg';
-import { default as imagefour, default as imageone } from '../../assets/img4.jpg';
-import imagetwo from '../../assets/img5.jpg';
-import imagethree from '../../assets/img6.jpg';
-
+import imagesix from "../../assets/10.webp";
+import imageseven from "../../assets/11.webp"
+import imagefive from "../../assets/13.webp";
+import {
+  default as imagefour,
+  default as imageone,
+} from "../../assets/14.webp";
+import imagetwo from "../../assets/redlove.webp";
+import imagethree from "../../assets/lip.webp";
 
 const Data = [
   {
@@ -15,7 +17,7 @@ const Data = [
     total: 60,
     discountPercentage: 8.71,
     discountedPrice: 55,
-    thumbnail:imageone,
+    thumbnail: imageone,
   },
   {
     id: 88,
