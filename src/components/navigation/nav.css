@@ -109,11 +109,14 @@
     }
 
     .hamburger {
+        padding: 0px 15px;
+        width: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: static;
         top: 1rem;
         right:1rem;
-        margin-right: 20px;
-        
         border: none;
         cursor: pointer;
         z-index: 2;
@@ -123,7 +126,6 @@
     .hamburger-icon {
         font-size: 2.5rem;
         color: rgb(0, 0, 0);
-        margin-left: 130px;
         max-width: auto;
       
     }
